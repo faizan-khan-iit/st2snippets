@@ -1,0 +1,10 @@
+<snippet>
+	<description>def main</description>
+    <content><![CDATA[int main(){
+	
+    return(0);
+}
+]]></content>
+    <tabTrigger>imain</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
