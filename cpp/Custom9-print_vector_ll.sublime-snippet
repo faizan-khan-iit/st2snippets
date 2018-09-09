@@ -1,0 +1,11 @@
+<snippet>
+	<description>print ll vector</description>
+    <content><![CDATA[void p_vec(vector<ll> &A, int n=0){
+	if(n == 0){n = A.size();}
+	for(ll i=0; i<n; i++){cout << A[i] << " ";}
+	cout << endl; return;
+}
+]]></content>
+    <tabTrigger>pvll</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

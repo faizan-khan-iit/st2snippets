@@ -1,0 +1,12 @@
+<snippet>
+	<description>ll vector inp</description>
+    <content><![CDATA[vector<ll> V;
+ll inp_ll;
+for(ll i=0; i<n; i++){
+	cin >> inp_ll;
+	V.push_back(inp_ll);
+}
+]]></content>
+    <tabTrigger>vli</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

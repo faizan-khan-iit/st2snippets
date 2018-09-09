@@ -1,0 +1,12 @@
+<snippet>
+	<description>int vector inp</description>
+    <content><![CDATA[vector<int> V;
+int inp_int;
+for(int i=0; i<n; i++){
+	cin >> inp_int;
+	V.push_back(inp_int);
+}
+]]></content>
+    <tabTrigger>vii</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
